@@ -13,6 +13,7 @@ import {
 import moment from "moment";
 import { useMutation } from "@apollo/client";
 
+import MyPopup from "../util/MyPopup";
 import DeleteButton from "../components/DeleteButton";
 import LikeButton from "../components/LikeButton";
 import { AuthContext } from "../context/auth";
@@ -80,18 +81,20 @@ export default function SinglePost(props) {
               <hr />
               <Card.Content extra>
                 <LikeButton user={user} post={{ id, likeCount, likes }} />
-                <Button
-                  as="div"
-                  labelPosition="right"
-                  onClick={() => console.log("Comment on Post")}
-                >
-                  <Button basic color="blue">
-                    <Icon name="comments" />
+                <MyPopup content="Comment on post">
+                  <Button
+                    as="div"
+                    labelPosition="right"
+                    onClick={() => console.log("Comment on Post")}
+                  >
+                    <Button basic color="blue">
+                      <Icon name="comments" />
+                    </Button>
+                    <Label basic color="blue" pointing="left">
+                      {commentCount}
+                    </Label>
                   </Button>
-                  <Label basic color="blue" pointing="left">
-                    {commentCount}
-                  </Label>
-                </Button>
+                </MyPopup>
                 {user && user.username === username && (
                   <DeleteButton postId={id} callback={deletePostCallback} />
                 )}

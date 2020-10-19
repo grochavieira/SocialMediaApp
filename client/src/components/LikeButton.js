@@ -4,6 +4,8 @@ import { Icon, Label, Button } from "semantic-ui-react";
 import { useMutation } from "@apollo/client";
 import gql from "graphql-tag";
 
+import MyPopup from "../util/MyPopup";
+
 export default function LikeButton({ post: { id, likeCount, likes }, user }) {
   const [liked, setLiked] = useState(false);
   useEffect(() => {
@@ -33,7 +35,9 @@ export default function LikeButton({ post: { id, likeCount, likes }, user }) {
 
   return (
     <Button as="div" labelPosition="right" onClick={likePost}>
-      {likeButton}
+      <MyPopup content={liked ? "Unlike Post" : "Like Post"}>
+        {likeButton}
+      </MyPopup>
       <Label basic color="teal" pointing="left">
         {likeCount}
       </Label>
