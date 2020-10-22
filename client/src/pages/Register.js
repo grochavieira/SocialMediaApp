@@ -8,6 +8,7 @@ import { useForm } from "../util/hooks";
 
 function Register(props) {
   const context = useContext(AuthContext);
+  console.log(context);
   const [errors, setErrors] = useState({});
 
   const { onChange, onSubmit, values } = useForm(registerUser, {
