@@ -20,7 +20,7 @@
 </h1>
 
 <h4 align="center"> 
-	🚧  Aplicação em finalizada 🚧
+	🚧  Aplicação Finalizada 🚧
 </h4>
 
 ## 🏁 Tópicos
@@ -50,6 +50,7 @@ Um site de media social criado com MERNG stack (MongoDB, Express, React, Node.js
 - [x] Usuário pode se logar com nome de usuário e senha;
 - [x] Usuários logados podem criar novos posts;
 - [x] Usuário pode ver um feed global de todos os posts criados;
+- [x] Usuário logado pode curtir e descurtir comentários;
 - [x] Usuário pode deletar seus posts se estiver logado;
 - [x] Usuário logado pode comentar nos posts criados;
 - [x] Usuário logado pode deletar os comentário criados.
