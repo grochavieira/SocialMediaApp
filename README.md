@@ -64,7 +64,7 @@ Um site de media social criado com MERNG stack (MongoDB, Express, React, Node.js
 
 Este projeto é divido em duas partes:
 
-1. Backend (pasta backend)
+1. Backend (pasta server)
 2. Frontend (pasta web)
 
 💡O Frontend precisa que o Backend esteja sendo executado para funcionar.
