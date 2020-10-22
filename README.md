@@ -16,7 +16,7 @@
  
 </p>
 <h1 align="center">
-    <img src="./assets/logo.PNG" />
+    Social Media App
 </h1>
 
 <h4 align="center"> 
