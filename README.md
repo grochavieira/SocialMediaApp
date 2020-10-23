@@ -38,7 +38,7 @@
 
 ## 💻 Sobre o projeto
 
-📺 Um site de media social criado com MERNG stack (MongoDB, Express, React, Node.js, GraphQL).
+📺 Um site de media social criado com MERNG stack (MongoDB, Express, React, Node.js, GraphQL), com o objetivo de aprender mais sobre GraphQL e como utiliza-lo, seguindo um tutorial no YouTube de um vídeo da freeCodeCamp: https://youtu.be/n1mdAPFq2Os
 
 ---
 
