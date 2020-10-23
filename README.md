@@ -38,7 +38,7 @@
 
 ## 💻 Sobre o projeto
 
-Um site de media social criado com MERNG stack (MongoDB, Express, React, Node.js, GraphQL).
+📺 Um site de media social criado com MERNG stack (MongoDB, Express, React, Node.js, GraphQL).
 
 ---
 
@@ -150,7 +150,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
 - Teste de API: **[Insomnia](https://insomnia.rest/)**
-- Fontes: **[Grand Hotel](https://fonts.google.com/specimen/GrandHotel)**
 
 ---
 
