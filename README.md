@@ -1,3 +1,4 @@
+ <p align="center"> 
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/grochavieira/social-media-app?color=%2304D361&style=for-the-badge">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/grochavieira/social-media-app?style=for-the-badge">
