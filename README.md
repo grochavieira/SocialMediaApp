@@ -1,9 +1,9 @@
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/grochavieira/SocialMediaApp?color=%2304D361&style=for-the-badge">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/grochavieira/social-media-app?color=%2304D361&style=for-the-badge">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/grochavieira/SocialMediaApp?style=for-the-badge">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/grochavieira/social-media-app?style=for-the-badge">
   
-  <a href="https://github.com/grochavieira/SocialMediaApp/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/grochavieira/SocialMediaApp?style=for-the-badge">
+  <a href="https://github.com/grochavieira/social-media-app/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/grochavieira/social-media-app?style=for-the-badge">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen?style=for-the-badge">
@@ -80,10 +80,10 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/grochavieira/SocialMediaApp.git
+$ git clone https://github.com/grochavieira/social-media-app.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd SocialMediaApp
+$ cd social-media-app
 
 # Vá para a pasta server
 $ cd server
@@ -103,10 +103,10 @@ $ npm start
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/grochavieira/SocialMediaApp.git
+$ git clone https://github.com/grochavieira/social-media-app.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd SocialMediaApp
+$ cd social-media-app
 
 # Vá para a pasta client
 $ cd client
@@ -133,7 +133,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[Semantic UI](https://semantic-ui.com/)**
 - **[Semantic UI React](https://react.semantic-ui.com/)**
 
-> Veja o arquivo [package.json](https://github.com/grochavieira/SocialMediaApp/blob/master/web/package.json)
+> Veja o arquivo [package.json](https://github.com/grochavieira/social-media-app/blob/master/web/package.json)
 
 #### **Server** ([NodeJS](https://nodejs.org/en/))
 
@@ -143,7 +143,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
 - **[MongoDB](https://www.mongodb.com/)**
 
-> Veja o arquivo [package.json](https://github.com/grochavieira/SocialMediaApp/blob/master/server/package.json)
+> Veja o arquivo [package.json](https://github.com/grochavieira/social-media-app/blob/master/server/package.json)
 
 #### **Utilitários**
 
